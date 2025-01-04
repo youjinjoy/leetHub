@@ -4,44 +4,22 @@
  * @return {number[][]}
  */
 var findDifference = function(nums1, nums2) {
-    const mapNums1 = new Map();
-    for (let i = 0 ; i < nums1.length ; i++) {
-        const n  = mapNums1.get(nums1[i]);
-        if (!n) {
-            mapNums1.set(nums1[i],1);
-        }
-        else {
-            mapNums1.set(nums1[i], n+1);
+    const setNums1 = new Set(nums1);
+    const setNums2 = new Set(nums2);
+
+    const answer=[[],[]];
+
+    for (let n of setNums1) {
+        if (!setNums2.has(n)) {
+            answer[0].push(n);
         }
     }
 
-    const mapNums2 = new Map();
-    for (let i = 0 ; i < nums2.length ; i++) {
-        const n  = mapNums2.get(nums2[i]);
-        if (!n) {
-            mapNums2.set(nums2[i],1);
-        }
-        else {
-            mapNums2.set(nums2[i], n+1);
+    for (let n of setNums2) {
+        if (!setNums1.has(n)) {
+            answer[1].push(n);
         }
     }
 
-    console.log(mapNums1, mapNums2);
-
-
-    const answer1 = new Set();
-    const answer2 = new Set();
-    for (let i = 0 ; i < nums1.length ; i++) {
-        if (!mapNums2.get(nums1[i])) {
-            answer1.add(nums1[i]);
-        }
-    }
-    
-    for (let i = 0 ; i < nums2.length ; i++) {
-        if (!mapNums1.get(nums2[i])) {
-            answer2.add(nums2[i]);
-        }
-    }
-
-    return [Array.from(answer1), Array.from(answer2)];
+    return answer;
 };
