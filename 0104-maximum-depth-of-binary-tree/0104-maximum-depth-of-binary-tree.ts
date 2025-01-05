@@ -13,22 +13,17 @@
  */
 
 function maxDepth(root: TreeNode | null): number {
-    if (!root) return 0;
-
-    const stack:[TreeNode, number][] = [[root, 1]];
-    let maxValue = 0;
-
-    while (stack.length) {
-        const [currentNode, depth] = stack.pop();
-        maxValue = Math.max(maxValue, depth);
-
-        if (currentNode.left) {
-            stack.push([currentNode.left, depth + 1]);
-        }
-        if (currentNode.right) {
-            stack.push([currentNode.right, depth + 1]);
-        }
+    if (root == null) {
+        return 0;
     }
 
-    return maxValue;
+    return traverse(root, 0);
 };
+
+function traverse(node: TreeNode | null, depth: number):number {
+    if (node === null) {
+        return depth;
+    }
+    
+    return Math.max(traverse(node.left, depth+1), traverse(node.right, depth+1));
+}
