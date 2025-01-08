@@ -68,11 +68,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/youjinjoy/leetHub/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/youjinjoy/leetHub/tree/master/0199-binary-tree-right-side-view) |
+| [0871-keys-and-rooms](https://github.com/youjinjoy/leetHub/tree/master/0871-keys-and-rooms) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/youjinjoy/leetHub/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/youjinjoy/leetHub/tree/master/0199-binary-tree-right-side-view) |
+| [0871-keys-and-rooms](https://github.com/youjinjoy/leetHub/tree/master/0871-keys-and-rooms) |
 ## Binary Tree
 |  |
 | ------- |
@@ -83,4 +85,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/youjinjoy/leetHub/tree/master/0783-search-in-a-binary-search-tree) |
+## Graph
+|  |
+| ------- |
+| [0871-keys-and-rooms](https://github.com/youjinjoy/leetHub/tree/master/0871-keys-and-rooms) |
 <!---LeetCode Topics End-->
