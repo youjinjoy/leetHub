@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/youjinjoy/leetHub/tree/master/0643-maximum-average-subarray-i) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/youjinjoy/leetHub/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1833-find-the-highest-altitude](https://github.com/youjinjoy/leetHub/tree/master/1833-find-the-highest-altitude) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/youjinjoy/leetHub/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Sliding Window
 |  |
 | ------- |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/youjinjoy/leetHub/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/youjinjoy/leetHub/tree/master/0199-binary-tree-right-side-view) |
 | [0871-keys-and-rooms](https://github.com/youjinjoy/leetHub/tree/master/0871-keys-and-rooms) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/youjinjoy/leetHub/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Binary Tree
 |  |
 | ------- |
@@ -89,4 +91,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0871-keys-and-rooms](https://github.com/youjinjoy/leetHub/tree/master/0871-keys-and-rooms) |
+## Matrix
+|  |
+| ------- |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/youjinjoy/leetHub/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 <!---LeetCode Topics End-->
