@@ -4,31 +4,36 @@
  * @return {number}
  */
 var nearestExit = function(maze, entrance) {
-    let queue = []
-    queue.push([entrance, 0])
-    const m = maze.length
-    const n = maze[0].length
-    while(queue.length){
-        const [cell, steps] = queue.shift()
-        const [i,j] = cell
-        // check if cell is invalid/visited 
-        if(i===m || i===-1 || j===n || j===-1 || maze[i][j]!=='.'){
-            continue
+
+    function bfs() {
+        const queue = [[...entrance, 0]];
+        const dx = [1, -1, 0, 0];
+        const dy = [0, 0, 1, -1];
+
+        const colLen = maze.length;
+        const rowLen = maze[0].length;
+        const visited = Array.from({length: colLen}, () => new Array(rowLen).fill(false));
+        visited[entrance[0]][entrance[1]] = true;
+
+        while (queue.length) {
+            const [cx, cy, cDepth] = queue.shift();
+            
+            for (let i = 0 ; i < 4 ; i++) {
+                const [nx, ny, nDepth] = [cx+dx[i], cy+dy[i], cDepth + 1];
+                if (nx >= 0 && nx < colLen && ny >= 0 && ny < rowLen && !visited[nx][ny] && maze[nx][ny] !== '+') {
+                    console.log(nx,ny);
+                    if (nx === 0 || ny === 0 || nx === colLen-1 || ny === rowLen-1) {
+                        return nDepth;
+                    }
+                    queue.push([nx, ny, nDepth]);
+                    visited[nx][ny] = true;
+                }
+            }
         }
 
-        // mark cell as visited
-        maze[i][j] = '*'
-
-        // reached border
-        if((i===m-1 || i===0 || j===n-1 || j===0) && steps!==0){ 
-            return steps
-        }
-        
-        // visit neighbours
-        queue.push([[i,j+1], steps+1])
-        queue.push([[i,j-1], steps+1])
-        queue.push([[i+1,j], steps+1])
-        queue.push([[i-1,j], steps+1])
+        return -1;
     }
-    return  -1
+    
+
+    return bfs();
 };
