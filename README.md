@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0136-single-number](https://github.com/youjinjoy/leetHub/tree/master/0136-single-number) |
 | [0283-move-zeroes](https://github.com/youjinjoy/leetHub/tree/master/0283-move-zeroes) |
 | [0643-maximum-average-subarray-i](https://github.com/youjinjoy/leetHub/tree/master/0643-maximum-average-subarray-i) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/youjinjoy/leetHub/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -124,4 +125,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/youjinjoy/leetHub/tree/master/0062-unique-paths) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/youjinjoy/leetHub/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
