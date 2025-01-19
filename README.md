@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/youjinjoy/leetHub/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0208-implement-trie-prefix-tree](https://github.com/youjinjoy/leetHub/tree/master/0208-implement-trie-prefix-tree) |
 | [1894-merge-strings-alternately](https://github.com/youjinjoy/leetHub/tree/master/1894-merge-strings-alternately) |
 | [2470-removing-stars-from-a-string](https://github.com/youjinjoy/leetHub/tree/master/2470-removing-stars-from-a-string) |
 ## Array
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/youjinjoy/leetHub/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0208-implement-trie-prefix-tree](https://github.com/youjinjoy/leetHub/tree/master/0208-implement-trie-prefix-tree) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/youjinjoy/leetHub/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Stack
 |  |
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/youjinjoy/leetHub/tree/master/0208-implement-trie-prefix-tree) |
 | [0969-number-of-recent-calls](https://github.com/youjinjoy/leetHub/tree/master/0969-number-of-recent-calls) |
 ## Queue
 |  |
@@ -131,4 +134,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/youjinjoy/leetHub/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/youjinjoy/leetHub/tree/master/0338-counting-bits) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/youjinjoy/leetHub/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
