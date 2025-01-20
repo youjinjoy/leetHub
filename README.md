@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/youjinjoy/leetHub/tree/master/0136-single-number) |
 | [0283-move-zeroes](https://github.com/youjinjoy/leetHub/tree/master/0283-move-zeroes) |
 | [0643-maximum-average-subarray-i](https://github.com/youjinjoy/leetHub/tree/master/0643-maximum-average-subarray-i) |
+| [0747-min-cost-climbing-stairs](https://github.com/youjinjoy/leetHub/tree/master/0747-min-cost-climbing-stairs) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/youjinjoy/leetHub/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1833-find-the-highest-altitude](https://github.com/youjinjoy/leetHub/tree/master/1833-find-the-highest-altitude) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/youjinjoy/leetHub/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/youjinjoy/leetHub/tree/master/0062-unique-paths) |
 | [0338-counting-bits](https://github.com/youjinjoy/leetHub/tree/master/0338-counting-bits) |
+| [0747-min-cost-climbing-stairs](https://github.com/youjinjoy/leetHub/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/youjinjoy/leetHub/tree/master/1236-n-th-tribonacci-number) |
 ## Memoization
 |  |
