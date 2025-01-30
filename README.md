@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/youjinjoy/leetHub/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/youjinjoy/leetHub/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/youjinjoy/leetHub/tree/master/0747-min-cost-climbing-stairs) |
+| [1319-unique-number-of-occurrences](https://github.com/youjinjoy/leetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/youjinjoy/leetHub/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1833-find-the-highest-altitude](https://github.com/youjinjoy/leetHub/tree/master/1833-find-the-highest-altitude) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/youjinjoy/leetHub/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/youjinjoy/leetHub/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/youjinjoy/leetHub/tree/master/0208-implement-trie-prefix-tree) |
+| [1319-unique-number-of-occurrences](https://github.com/youjinjoy/leetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/youjinjoy/leetHub/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Stack
 |  |
