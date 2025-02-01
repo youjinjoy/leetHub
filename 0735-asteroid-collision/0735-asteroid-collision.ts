@@ -11,16 +11,12 @@ function asteroidCollision(asteroids: number[]): number[] {
         let survived = true;
 
         while (survived && stack.length && stack[stack.length-1] > 0 && asteroid < 0) {
-            if (Math.abs(asteroid) > stack[stack.length-1]) {
+            
+            survived = Math.abs(asteroid) > stack[stack.length-1];
+            if (Math.abs(asteroid) >= stack[stack.length-1]) {
                 stack.pop();
             }
-            else if (Math.abs(asteroid) === stack[stack.length-1]) {
-                stack.pop();
-                survived = false;
-            }
-            else {
-                survived = false;
-            }
+            
         }
 
         if (survived) {
