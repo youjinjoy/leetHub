@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/youjinjoy/leetHub/tree/master/0283-move-zeroes) |
 | [0435-non-overlapping-intervals](https://github.com/youjinjoy/leetHub/tree/master/0435-non-overlapping-intervals) |
 | [0643-maximum-average-subarray-i](https://github.com/youjinjoy/leetHub/tree/master/0643-maximum-average-subarray-i) |
+| [0735-asteroid-collision](https://github.com/youjinjoy/leetHub/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/youjinjoy/leetHub/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/youjinjoy/leetHub/tree/master/0747-min-cost-climbing-stairs) |
 | [1319-unique-number-of-occurrences](https://github.com/youjinjoy/leetHub/tree/master/1319-unique-number-of-occurrences) |
@@ -50,11 +51,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/youjinjoy/leetHub/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/youjinjoy/leetHub/tree/master/0739-daily-temperatures) |
 | [2470-removing-stars-from-a-string](https://github.com/youjinjoy/leetHub/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/youjinjoy/leetHub/tree/master/0735-asteroid-collision) |
 | [2470-removing-stars-from-a-string](https://github.com/youjinjoy/leetHub/tree/master/2470-removing-stars-from-a-string) |
 ## Design
 |  |
