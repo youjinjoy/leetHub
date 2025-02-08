@@ -16,29 +16,32 @@ function maxDepth(root: TreeNode | null): number {
     // 1차원
 
     // DFS 재귀
-    function recursiveDFS(root: TreeNode | null) {
-        if (!root) return 0;
+    // function recursiveDFS(root: TreeNode | null) {
+    //     if (!root) return 0;
         
-        return Math.max(recursiveDFS(root.left), recursiveDFS(root.right)) + 1;
-    }
+    //     return Math.max(recursiveDFS(root.left), recursiveDFS(root.right)) + 1;
+    // }
 
-    return recursiveDFS(root);
+    // return recursiveDFS(root);
 
     // DFS 반복문
-    // const stack = [];
-    // stack.push([root, 0]);
+    if (!root) return 0;
 
-    // let answer = 0;
-    // while (stack.length) {
-    //     const [node, depth] = stack.pop();
-    //     if (!node) {
-    //         answer = Math.max(answer, depth);
-    //         continue;
-    //     }
-    //     stack.push([node.left, depth + 1]);
-    //     stack.push([node.right, depth + 1]);
-    // }
-    // return answer;
+    const stack = [];
+    stack.push([root, 1]);
+
+    let answer = 0;
+    while (stack.length) {
+        const [node, depth] = stack.pop();
+        answer = Math.max(answer, depth);
+        if (node.left) {
+            stack.push([node.left, depth + 1]);
+        }
+        if (node.right) {
+            stack.push([node.right, depth + 1]);
+        }
+    }
+    return answer;
 
     // BFS 반복문
     // const queue = [];
