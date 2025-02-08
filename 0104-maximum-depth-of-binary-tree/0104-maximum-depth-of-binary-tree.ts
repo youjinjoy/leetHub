@@ -25,36 +25,38 @@ function maxDepth(root: TreeNode | null): number {
     // return recursiveDFS(root);
 
     // DFS 반복문
+    // if (!root) return 0;
+
+    // const stack = [];
+    // stack.push([root, 1]);
+
+    // let answer = 0;
+    // while (stack.length) {
+    //     const [node, depth] = stack.pop();
+    //     answer = Math.max(answer, depth);
+    //     if (node.left) {
+    //         stack.push([node.left, depth + 1]);
+    //     }
+    //     if (node.right) {
+    //         stack.push([node.right, depth + 1]);
+    //     }
+    // }
+    // return answer;
+
+    // BFS 반복문
     if (!root) return 0;
-
-    const stack = [];
-    stack.push([root, 1]);
-
+    const queue = [];
+    queue.push([root, 1]);
     let answer = 0;
-    while (stack.length) {
-        const [node, depth] = stack.pop();
-        answer = Math.max(answer, depth);
+    while (queue.length) {
+        const [node, depth] = queue.shift();
+        answer = depth;
         if (node.left) {
-            stack.push([node.left, depth + 1]);
+            queue.push([node.left, depth+1]);
         }
         if (node.right) {
-            stack.push([node.right, depth + 1]);
+          queue.push([node.right, depth+1]);
         }
     }
     return answer;
-
-    // BFS 반복문
-    // const queue = [];
-    // queue.push([root, 0]);
-    // let answer = 0;
-    // while (queue.length) {
-    //     const [node, depth] = queue.shift();
-    //     if (!node) {
-    //         answer = depth;
-    //         continue;
-    //     }
-    //     queue.push([node.left, depth+1]);
-    //     queue.push([node.right, depth+1]);
-    // }
-    // return answer;
 };
