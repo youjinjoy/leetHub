@@ -13,19 +13,18 @@
  */
 
 function goodNodes(root: TreeNode | null): number {
-    let answer = 0;
-    function dfs(node: TreeNode | null, maxVal: number) {
-        if (!node) return;
 
-        if (node.val >= maxVal) {
-            maxVal = node.val;
-            answer += 1;
+    function dfs(root: TreeNode | null, maxVal: number) {
+        if (!root) return 0;
+
+        if (root.val >= maxVal) {
+            maxVal = root.val;
+            return dfs(root.left, maxVal) + dfs(root.right, maxVal) + 1;
         }
-        dfs(node.left, maxVal);
-        dfs(node.right, maxVal);
+        else {
+            return dfs(root.left, maxVal) + dfs(root.right, maxVal);
+        }
     }
 
-    dfs(root, root.val);
-
-    return answer;
+    return dfs(root, root.val);
 };
