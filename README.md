@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/youjinjoy/leetHub/tree/master/0199-binary-tree-right-side-view) |
 | [0783-search-in-a-binary-search-tree](https://github.com/youjinjoy/leetHub/tree/master/0783-search-in-a-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/youjinjoy/leetHub/tree/master/0904-leaf-similar-trees) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/youjinjoy/leetHub/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -90,12 +91,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/youjinjoy/leetHub/tree/master/0199-binary-tree-right-side-view) |
 | [0871-keys-and-rooms](https://github.com/youjinjoy/leetHub/tree/master/0871-keys-and-rooms) |
 | [0904-leaf-similar-trees](https://github.com/youjinjoy/leetHub/tree/master/0904-leaf-similar-trees) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/youjinjoy/leetHub/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/youjinjoy/leetHub/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/youjinjoy/leetHub/tree/master/0199-binary-tree-right-side-view) |
 | [0871-keys-and-rooms](https://github.com/youjinjoy/leetHub/tree/master/0871-keys-and-rooms) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/youjinjoy/leetHub/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/youjinjoy/leetHub/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Binary Tree
 |  |
@@ -104,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/youjinjoy/leetHub/tree/master/0199-binary-tree-right-side-view) |
 | [0783-search-in-a-binary-search-tree](https://github.com/youjinjoy/leetHub/tree/master/0783-search-in-a-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/youjinjoy/leetHub/tree/master/0904-leaf-similar-trees) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/youjinjoy/leetHub/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
