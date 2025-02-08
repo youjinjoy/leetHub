@@ -24,20 +24,33 @@ function maxDepth(root: TreeNode | null): number {
     // return recursiveDFS(root, 0);
 
     // DFS 반복문
-    const stack = [];
-    stack.push([root, 0]);
+    // const stack = [];
+    // stack.push([root, 0]);
 
+    // let answer = 0;
+    // while (stack.length) {
+    //     const [node, depth] = stack.pop();
+    //     if (!node) {
+    //         answer = Math.max(answer, depth);
+    //         continue;
+    //     }
+    //     stack.push([node.left, depth + 1]);
+    //     stack.push([node.right, depth + 1]);
+    // }
+    // return answer;
+
+    // BFS 반복문
+    const queue = [];
+    queue.push([root, 0]);
     let answer = 0;
-    while (stack.length) {
-        const [node, depth] = stack.pop();
+    while (queue.length) {
+        const [node, depth] = queue.shift();
         if (!node) {
-            answer = Math.max(answer, depth);
+            answer = depth;
             continue;
         }
-        stack.push([node.left, depth + 1]);
-        stack.push([node.right, depth + 1]);
+        queue.push([node.left, depth+1]);
+        queue.push([node.right, depth+1]);
     }
     return answer;
-    // BFS 재귀
-    // BFS 반복문
 };
