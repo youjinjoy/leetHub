@@ -1,12 +1,9 @@
 type F = (x: number) => number;
 
 function compose(functions: F[]): F {
-    let result = null;
 
     return function(x) {
-        if (result === null) {
-            result = x;
-        }
+        let result = x;
 
         for (let i = functions.length - 1 ; i >= 0 ; i--) {
             result = functions[i](result);
