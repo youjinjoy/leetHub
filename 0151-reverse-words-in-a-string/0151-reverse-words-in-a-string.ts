@@ -1,21 +1,9 @@
 function reverseWords(s: string): string {
-    const result = [];
-    let word = '';
-    for (let element of s) {
-        if (element !== ' ') {
-            word += element;
-        }
-        else if (word.length) {
-            result.push(word);
-            word = '';
-        }
-    }
+    let parts = s.split(' ')
+        .filter((part) => part.length > 0)
 
-    if (word.length) {
-        result.push(word);
-    }
-    
-    result.reverse();
+    parts[0].trim();
+    parts[parts.length-1].trim();
 
-    return result.join(' ');
+    return parts.reverse().join(' ')
 };
