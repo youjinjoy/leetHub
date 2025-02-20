@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/youjinjoy/leetHub/tree/master/0136-single-number) |
+| [0238-product-of-array-except-self](https://github.com/youjinjoy/leetHub/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/youjinjoy/leetHub/tree/master/0283-move-zeroes) |
 | [0435-non-overlapping-intervals](https://github.com/youjinjoy/leetHub/tree/master/0435-non-overlapping-intervals) |
 | [0605-can-place-flowers](https://github.com/youjinjoy/leetHub/tree/master/0605-can-place-flowers) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/youjinjoy/leetHub/tree/master/0238-product-of-array-except-self) |
 | [1833-find-the-highest-altitude](https://github.com/youjinjoy/leetHub/tree/master/1833-find-the-highest-altitude) |
 ## Hash Table
 |  |
