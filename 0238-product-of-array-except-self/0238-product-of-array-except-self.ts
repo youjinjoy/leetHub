@@ -8,13 +8,11 @@ function productExceptSelf(nums: number[]): number[] {
         result[i] = leftProduct;
         leftProduct *= nums[i];
     }
-    console.log("L",result);
 
     for (let i = N-1 ; i >= 0 ; i--) {
         result[i] *= rightProduct;
         rightProduct *= nums[i];
     }
-    console.log("R",result);
 
     return result;
 };
