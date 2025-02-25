@@ -2,7 +2,7 @@ function compress(chars: string[]): number {
     let prev = chars[0];
     let count = 1;
     let index = 0;
-    const compression = [];
+    
     for (let i = 1 ; i < chars.length ; i++) {
         if (prev !== chars[i]) {
             chars[index] = prev;
@@ -32,6 +32,5 @@ function compress(chars: string[]): number {
         }
     }
 
-    console.log(chars);
     return index;
 };
