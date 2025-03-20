@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/youjinjoy/leetHub/tree/master/0443-string-compression) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/youjinjoy/leetHub/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/youjinjoy/leetHub/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1777-determine-if-two-strings-are-close](https://github.com/youjinjoy/leetHub/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/youjinjoy/leetHub/tree/master/1894-merge-strings-alternately) |
 | [2470-removing-stars-from-a-string](https://github.com/youjinjoy/leetHub/tree/master/2470-removing-stars-from-a-string) |
 ## Array
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/youjinjoy/leetHub/tree/master/0208-implement-trie-prefix-tree) |
 | [1319-unique-number-of-occurrences](https://github.com/youjinjoy/leetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/youjinjoy/leetHub/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1777-determine-if-two-strings-are-close](https://github.com/youjinjoy/leetHub/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/youjinjoy/leetHub/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Stack
 |  |
@@ -199,9 +201,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/youjinjoy/leetHub/tree/master/0435-non-overlapping-intervals) |
+| [1777-determine-if-two-strings-are-close](https://github.com/youjinjoy/leetHub/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/youjinjoy/leetHub/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/youjinjoy/leetHub/tree/master/0739-daily-temperatures) |
+## Counting
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/youjinjoy/leetHub/tree/master/1777-determine-if-two-strings-are-close) |
 <!---LeetCode Topics End-->
