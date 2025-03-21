@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/youjinjoy/leetHub/tree/master/0208-implement-trie-prefix-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/youjinjoy/leetHub/tree/master/0345-reverse-vowels-of-a-string) |
 | [0443-string-compression](https://github.com/youjinjoy/leetHub/tree/master/0443-string-compression) |
+| [0649-dota2-senate](https://github.com/youjinjoy/leetHub/tree/master/0649-dota2-senate) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/youjinjoy/leetHub/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/youjinjoy/leetHub/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1777-determine-if-two-strings-are-close](https://github.com/youjinjoy/leetHub/tree/master/1777-determine-if-two-strings-are-close) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0649-dota2-senate](https://github.com/youjinjoy/leetHub/tree/master/0649-dota2-senate) |
 | [0969-number-of-recent-calls](https://github.com/youjinjoy/leetHub/tree/master/0969-number-of-recent-calls) |
 ## Data Stream
 |  |
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0334-increasing-triplet-subsequence](https://github.com/youjinjoy/leetHub/tree/master/0334-increasing-triplet-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/youjinjoy/leetHub/tree/master/0435-non-overlapping-intervals) |
 | [0605-can-place-flowers](https://github.com/youjinjoy/leetHub/tree/master/0605-can-place-flowers) |
+| [0649-dota2-senate](https://github.com/youjinjoy/leetHub/tree/master/0649-dota2-senate) |
 ## Sorting
 |  |
 | ------- |
