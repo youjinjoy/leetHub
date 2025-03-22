@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/youjinjoy/leetHub/tree/master/0206-reverse-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/youjinjoy/leetHub/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Tree
 |  |
@@ -218,4 +219,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/youjinjoy/leetHub/tree/master/1777-determine-if-two-strings-are-close) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/youjinjoy/leetHub/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
