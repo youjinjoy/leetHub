@@ -29,5 +29,5 @@ function longestZigZag(root: TreeNode | null): number {
         }
     }
     
-    return Math.max(0, dfs(root, 0, true) - 1);
+    return dfs(root, 0, true) - 1;
 };
