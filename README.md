@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/youjinjoy/leetHub/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/youjinjoy/leetHub/tree/master/0208-implement-trie-prefix-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/youjinjoy/leetHub/tree/master/0345-reverse-vowels-of-a-string) |
+| [0394-decode-string](https://github.com/youjinjoy/leetHub/tree/master/0394-decode-string) |
 | [0443-string-compression](https://github.com/youjinjoy/leetHub/tree/master/0443-string-compression) |
 | [0649-dota2-senate](https://github.com/youjinjoy/leetHub/tree/master/0649-dota2-senate) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/youjinjoy/leetHub/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/youjinjoy/leetHub/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/youjinjoy/leetHub/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/youjinjoy/leetHub/tree/master/0739-daily-temperatures) |
 | [2470-removing-stars-from-a-string](https://github.com/youjinjoy/leetHub/tree/master/2470-removing-stars-from-a-string) |
@@ -227,4 +229,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/youjinjoy/leetHub/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/youjinjoy/leetHub/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
