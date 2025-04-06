@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/youjinjoy/leetHub/tree/master/0011-container-with-most-water) |
+| [0125-valid-palindrome](https://github.com/youjinjoy/leetHub/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/youjinjoy/leetHub/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/youjinjoy/leetHub/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/youjinjoy/leetHub/tree/master/0345-reverse-vowels-of-a-string) |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/youjinjoy/leetHub/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0125-valid-palindrome](https://github.com/youjinjoy/leetHub/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/youjinjoy/leetHub/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/youjinjoy/leetHub/tree/master/0208-implement-trie-prefix-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/youjinjoy/leetHub/tree/master/0345-reverse-vowels-of-a-string) |
