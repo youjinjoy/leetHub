@@ -14,26 +14,28 @@ function pairSum(head: ListNode | null): number {
     let slow = head;
     let fast = head;
 
-    while (fast) {
+    while (fast && fast.next && fast.next.next) {
         slow = slow.next;
         fast = fast.next.next;
     }
 
-    let prev = null;;
-    let next = null;
-    while (slow) {
-        next = slow.next;
-        slow.next = prev;
-        prev = slow;
-        slow = next;
+    let current = slow.next;
+    slow.next = null;
+    let prev = null;
+
+    while (current) {
+        const next = current.next;
+        current.next = prev;
+        prev = current;
+        current = next;
     }
+
 
     let first = head;
     let second = prev;
-
     let answer = 1;
-    while (second) {
-        answer = Math.max(answer, first.val + second.val);
+    while (first) {
+        answer = Math.max(answer, first.val+second.val);
         first = first.next;
         second = second.next;
     }
